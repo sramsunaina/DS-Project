@@ -1,0 +1,9 @@
+name: prediction
+dependencies:
+  - python=3.11
+  - numpy=1.26
+  - pandas
+  - scikit-learn
+  - pip
+
+   
