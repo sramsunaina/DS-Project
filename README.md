@@ -1,15 +1,39 @@
-The dataset contains historical loan application records with applicant financial profiles and final loan status outcomes.
+# Loan Approval Prediction
 
-| Feature | Description | Type |
-| `loan_id` | Unique identifier for each loan application | Categorical (ID) |
-| `no_of_dependents` | Number of dependents financially reliant on the applicant | Numerical |
-| `education` | Applicant education level (`Graduate` / `Not Graduate`) | Categorical |
-| `self_employed` | Employment status (`Yes` / `No`) | Categorical |
-| `income_annum` | Annual income of the applicant | Numerical |
-| `loan_amount` | Total loan amount requested | Numerical |
-| `loan_term` | Repayment duration of the loan (in years or months) | Numerical |
-| `cibil_score` | Credit bureau score indicating creditworthiness | Numerical |
-| `assets_value` | Total valuation of residential, commercial, luxury, and bank assets | Numerical |
-| `loan_status` | Final credit decision (`Approved` / `Rejected`) | Binary Target |
+## Project Overview
+This project explores loan approval data and uses machine learning to predict loan approval.
 
+# Objectives
+- Perform Exploratory Data Analysis (EDA)
+- Clean and preprocess the dataset
+- Perform feature encoding
+- Train a machine learning classification model
+- Evaluate model performance
 
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+## Project Structure
+- data/: Dataset files
+- notebooks/: Jupyter notebooks
+- src/: Python source code
+- models/: Trained models
+- reports/: Analysis and visualizations
+
+## How to Run
+
+1. Install the required dependencies.
+2. Run data preprocessing.
+3. Run model training.
+4. Run predictions.
+
+## Model
+Logistic Regression
+Decision Tree
+Random Forest
